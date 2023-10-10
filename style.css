@@ -37,9 +37,12 @@ img {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-/* @media (min-width: 960px){
   img{
-    width: 50%;
+    width:100%
   }
-} */
+}
+@media (min-width: 960px){
+  img{
+    width: 200%;
+  }
+}
